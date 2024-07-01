@@ -1,0 +1,60 @@
+import React from 'react';
+import './Chat.css'; // Importa los estilos CSS
+
+function Chat() {
+    return (
+        <div className="chat-body">
+            {/* Barra de navegación */}
+            <header className="navbar">
+                <div className="container">
+                    <div className="logo">
+                        <span className="logo-text">Red Social</span>
+                    </div>
+                    {/* Otros elementos de navegación si los hay */}
+                </div>
+            </header>
+
+            {/* Contenedor principal */}
+            <div className="container chat-container">
+                {/* Lista de Conversaciones */}
+                <div className="conversation-list">
+                    <div className="search-bar">
+                        <input type="text" placeholder="Buscar conversación..." />
+                    </div>
+                    <ul>
+                        {/* Conversaciones se generarán dinámicamente */}
+                    </ul>
+                </div>
+                
+                {/* Ventana de Chat */}
+                <div className="chat-window">
+                    <div className="chat-header">
+                        <div className="profile-pic"></div>
+                        <div className="user-info">
+                            <h2>Usuario2</h2>
+                            <p></p>
+                        </div>
+                        <div className="header-icons">
+                            <span><i className="fa fa-video-camera"></i></span>
+                            <span><i className="fa fa-phone"></i></span>
+                            <span><i className="fa fa-info-circle"></i></span>
+                        </div>
+                    </div>
+                    <div className="chat-messages">
+                        {/* Mensajes se generarán dinámicamente */}
+                    </div>
+                    <div className="chat-input">
+                        <textarea placeholder="Escribe tu mensaje..."></textarea>
+                        <div className="input-icons">
+                            <span><i className="fa fa-paperclip"></i></span>
+                            <span><i className="fa fa-smile-o"></i></span>
+                        </div>
+                        <button type="submit"><i className="fa fa-paper-plane"></i> Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default Chat;
