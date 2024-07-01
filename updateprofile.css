@@ -1,0 +1,60 @@
+.update-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000; /* Fondo negro */
+}
+
+.update-form {
+    background: rgba(241, 241, 241, 0.9); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(234, 22, 22, 0.553);
+    text-align: center;
+    width: 300px;
+    margin: auto; 
+}
+
+.update-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.update-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+    text-align: left;
+}
+
+.update-form input[type="text"],
+.update-form input[type="email"],
+.update-form input[type="biografia"],
+.update-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+.btn-update {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-update:hover {
+    background-color: #0056b3;
+}
+
+.update-form textarea {
+    height: 100px;
+}
