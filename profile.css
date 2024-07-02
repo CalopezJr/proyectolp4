@@ -1,0 +1,186 @@
+.profile-body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.profile-navbar {
+    background-color: #130b9b;
+    width: 100%;
+    padding: 5px 0;
+    height: 40px;
+}
+
+.profile-navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    padding: 0 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: -150px;
+}
+
+.logo-text {
+    font-size: 2.1rem;
+    line-height: 12px;
+}
+
+.profile-container {
+    width: 90%;
+    max-width: 1000px;
+    margin-top: 35px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  box-shadow: 0 0 10px rgba(234, 22, 22, 0.553);
+    color: #000;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.username {
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+}
+
+.fullname {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+
+.profile-stats span {
+    margin-right: 15px;
+    
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-right: 300px;
+}
+
+.btn, .button {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    background-color: rgb(129, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(21, 0, 255, 0.553);
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end; /* Cambia este valor según donde quieras los botones: center, flex-start, etc. */
+    gap: 1px; /* Espacio entre los botones */
+    margin-top: 150px; /* Ajusta el margen superior para colocarlos donde desees */
+    margin-right: 5px; /* Ajusta el margen derecho para mover los botones */
+    z-index: 10;
+    text-decoration: none;
+}
+
+
+
+
+.highlight-stories {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.highlight-story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.highlight-story img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.new-highlight {
+    width: 80px;
+    height: 80px;
+    border: 2px dashed #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #ccc;
+}
+
+.posts-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.post-tabs {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.tab.active {
+    border-bottom: 2px solid #007BFF;
+    color: #007BFF;
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.post {
+    width: calc(33.33% - 20px);
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+.post img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
